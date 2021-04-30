@@ -11,12 +11,7 @@ public class MyStackTest {
         myStack.push(myFirstNode);
         myStack.push(mySecondNode);
         myStack.push(myThirdNode);
-        INode<Integer>myNode=myStack.peak();
         myStack.printStack();
-        myStack.pop();
-        myStack.printStack();
-        System.out.println(myStack.peak());
-        Assertions.assertEquals(myThirdNode.getKey(),myNode.getKey());
 
 
     }

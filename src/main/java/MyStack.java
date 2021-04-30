@@ -8,12 +8,6 @@ public class MyStack<K> {
     public void push(INode<K>element){
         myLinkedList.add(element);
     }
-    public INode<K>peak(){
-        return myLinkedList.head;
-    }
-    public INode<K>pop(){
-        return myLinkedList.pop();
-    }
     public void printStack(){
         myLinkedList.printMyNodes();
     }
